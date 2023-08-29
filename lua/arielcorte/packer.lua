@@ -50,7 +50,16 @@ return require("packer").startup(function(use)
 
 	use("folke/zen-mode.nvim")
 
-	use("zbirenbaum/copilot.lua")
+	use("github/copilot.vim")
+
+	use({
+		"zbirenbaum/copilot.lua",
+		cmd = "Copilot",
+		event = "InsertEnter",
+		config = function()
+			require("copilot").setup({})
+		end,
+	})
 
 	use("mhartington/formatter.nvim")
 
