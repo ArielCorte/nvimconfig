@@ -64,4 +64,9 @@ return require("packer").startup(function(use)
 	use("mhartington/formatter.nvim")
 
 	use("mfussenegger/nvim-lint")
+
+	use({
+		"fatih/vim-go",
+		run = ":GoUpdateBinaries",
+	})
 end)

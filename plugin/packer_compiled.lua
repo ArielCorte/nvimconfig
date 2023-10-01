@@ -208,6 +208,11 @@ _G.packer_plugins = {
     path = "/home/arielcorte/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/home/arielcorte/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "/home/arielcorte/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",

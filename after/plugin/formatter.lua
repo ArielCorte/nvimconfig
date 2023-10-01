@@ -53,6 +53,7 @@ require("formatter").setup({
 		javascript = { format_prettier },
 		javascriptreact = { format_prettier },
 		json = { format_prettier },
+		html = { format_prettier },
 
 		-- Use the special "*" filetype for defining formatter configurations on
 		-- any filetype
